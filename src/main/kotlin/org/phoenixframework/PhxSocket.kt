@@ -99,7 +99,7 @@ open class PhxSocket(
             .create()
 
     private val request: Request
-    private val client: OkHttpClient
+    val client: OkHttpClient
 
     /// WebSocket connection to the server
     private var connection: WebSocket? = null
